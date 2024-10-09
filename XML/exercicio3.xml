@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<catalogue name="Smartphones">
+    <product name="Realme 12 Pro 5G">
+        <price>299€</price>
+        <features>
+            <screen name="Screen">
+                    <inches>6,7"</inches>
+                    <refresh_rate>120 Hz</refresh_rate>
+            </screen>
+            <memory name="Memory">
+                <ram>12GB</ram>
+                <rom>256GB</rom>
+            </memory>
+            <o.s. name ="O.S.">Android 14</o.s.>
+            <battery name="Battery">4800 mAh</battery>
+            <sim name="SIM">Nano-SIM</sim>
+            <camera name="Camera">
+                <front_camera>16 MP</front_camera>
+                <side_camera>108 MP</side_camera>
+            </camera>
+        </features>
+        <description>El Realme 12 Pro 5G es un teléfono inteligente que combina un diseño elegante con un rendimiento excepcional. Equipado con un procesador Qualcomm Snapdragon 6ª Gen de 8 núcleos y 12 GB de RAM, este dispositivo ofrece una experiencia fluida y sin lag para todas tus necesidades.</description>
+    </product>
+
+    <product name="Xiaomi Redmi Note 13">
+        <price>178,95€</price>
+        <features>
+            <screen name="Screen">
+                    <inches>6,67"</inches>
+                    <refresh_rate>120 Hz</refresh_rate>
+            </screen>
+            <memory name="Memory">
+                <ram>8GB</ram>
+                <rom>256GB</rom>
+            </memory>
+            <o.s. name ="O.S.">MIUI 14 (based on Android 13)</o.s.>
+            <battery name="Battery">5000 mAh</battery>
+            <sim name="SIM">Dual Nano-SIM</sim>
+            <camera name="Camera">
+                <front_camera>16 MP</front_camera>
+                <side_camera>50 MP</side_camera>
+            </camera>
+        </features>
+        <description>Redmi Note 13 cuenta con un diseño exquisito atrayendo todas las miradas. Con unos marcos delgados hace que se sienta una joya en las manos, aportando estilo. No solo cuenta con elegancia, Redmi Note 13 también juega con sus colores, consiguiendo un estilo perfecto. Además, sus bordes planos facilitan un agarre preciso y cómodo.</description>
+    </product>
+</catalogue>

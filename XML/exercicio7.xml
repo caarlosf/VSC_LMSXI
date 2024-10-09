@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<trip name="Vissting Germany">
+    <treveler>
+        <name>Pedro</name>
+        <surname1>Fernandez</surname1>
+        <surname2>Ruiz</surname2>
+    </traveler>
+    <treveler>
+        <name>Luis</name>
+        <surname1>Pérez</surname1>
+        <surname2>Ruiz</surname2>
+    </traveler>
+    <date_beguin>24/10/2024</date_beguin>
+    <date_end>3/11/2024</date_end>
+    <place_of_departure>Santiago de Compostela</place_of_departure>
+    <places_to_visit>
+        <city>Nürburg</city>
+        <hotel>Nürburg hotel</hotel>
+        <n_nights>5</n_nights>
+    </places_to_visit>
+    <places_to_visit>
+        <city>München</city>
+        <hotel>München hotel</hotel>
+        <n_nights>4</n_nights>
+    </places_to_visit>
+    <price>1200</price>
+</trip>

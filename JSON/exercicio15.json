@@ -1,0 +1,26 @@
+{
+    "Director's name" : "Francis Ford Coppola",
+    "Birthdate" : "1939-04-07",
+    "Birthplace" :  "Detroit, Míchigan, Estados Unidos",
+    "Death date" : null,
+    "Death place" : null,
+    "List of movies" : [
+        {
+            "name" : "The Godfather",
+            "date" : 1972
+        },
+        {
+            "name" : "The Godfather Part II",
+            "date" : 1974
+        },
+        {
+            "name" : "Apocalypse Now",
+            "date" : 1979
+        },
+        {
+            "name" : "The Godfather Part III",
+            "date" : 1990
+        }
+    ]
+}
+
