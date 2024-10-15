@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<bibliography xmlns="https:bibliography.com" xmlns:book="https:bibliography.com/books">
+    <employee>
+        <name>Erik T. Ray</name> 
+        <title>Mr. </title>
+        <publications>
+            <book:book>
+                <book:title>Learning XML</book:title>
+                <book:description>This second edition of the bestselling Learning XML provides web developers with a concise but grounded understanding of XML</book:description>
+            </book:book>
+        </publications>
+    </employee>
+</bibliography>
