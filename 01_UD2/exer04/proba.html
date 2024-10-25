@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Compostela Fitness Club Reservation</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+</style>
+</head>
+<body>
+<h1>Welcome to the 24x7 Compostela Fitness Club: Courts Reservation Page!!</h1>
+
+<img src="https://i.imgur.com/a1c5m8A.png" alt="Calendar with people marking reservation">
+
+<h2>Member Demographics</h2>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+
+<label for="membership">Are you a Member?</label><br>
+<input type="radio" id="member" name="membership" value="member">
+<label for="member">Member</label>
+<input type="radio" id="non-member" name="membership" value="non-member">
+<label for="non-member">Non-member</label><br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+
+<label for="facility">Facility:</label>
+<select id="facility" name="facility">
+  <option value="indoor-football">Indoor football</option>
+  <option value="badminton">Badminton</option>
+  <option value="tennis">Tennis</option>
+</select><br><br>
+
+<h3>Select a reservation date and time:</h3>
+<input type="date" id="date" name="date"><br><br>
+
+<input type="time" id="time" name="time"><br><br>
+
+<input type="checkbox" id="policy" name="policy">
+<label for="policy">I agree to the club's reservation policy</label><br><br>
+
+<button type="submit">Submit</button>
+
+</body>
+</html>
