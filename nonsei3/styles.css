@@ -1,0 +1,17 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    background-color: chartreuse;
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/*"#" fai referencia ó id*/
+#weird{
+
+}
+/*"." fai referencia á clase "class"*/
+.common{
+
+}
