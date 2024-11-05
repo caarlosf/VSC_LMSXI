@@ -1,0 +1,32 @@
+<div id="a1"/>
+<div id="a2"/>
+<div id="a3"/>
+<style>
+  body{
+    background: #62374e;
+  }
+  #a1 {
+    width: 50px;
+    height: 200px;
+    background: #fdc57b;
+    position: absolute;
+    top: 50px;
+    left: 50px; 
+  }
+  #a2 {
+    width: 50px;
+    height: 200px;
+    background: #fdc57b;
+    position: absolute;
+    top: 0px;
+    left: 250px; 
+  }
+  #a3 {
+    width: 300px;
+    height: 100px;
+    background: #62374e;
+    position: absolute;
+    top: 50px;
+    left: -250px; 
+  }
+</style>

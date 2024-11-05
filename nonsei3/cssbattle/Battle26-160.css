@@ -1,0 +1,33 @@
+<div id="a1"/>
+<div id="a2"/>
+<div id="a3"/>
+<div id="a4"/>
+<style>
+  body{
+    background: #62306D
+  }
+  #a1 {
+    width: 200px;
+    height: 200px;
+    background: #F7EC7D;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+  }
+    #a2 {
+    width: 100px;
+    height: 100px;
+    background: #E38F66;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  #a3 {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background: #62306D;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+</style>
