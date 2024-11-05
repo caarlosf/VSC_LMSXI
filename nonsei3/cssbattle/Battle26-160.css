@@ -7,6 +7,7 @@
     background: #62306D
   }
   #a1 {
+    border-radius: 100px;
     width: 200px;
     height: 200px;
     background: #F7EC7D;
@@ -15,6 +16,7 @@
     left: 100px;
   }
     #a2 {
+    border-radius: 40px;
     width: 100px;
     height: 100px;
     background: #E38F66;
@@ -24,8 +26,8 @@
   }
   #a3 {
     border-radius: 100%;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background: #62306D;
     position: absolute;
     top: 40px;
