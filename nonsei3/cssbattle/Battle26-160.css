@@ -16,7 +16,7 @@
     left: 100px;
   }
     #a2 {
-    border-radius: 40px;
+    border-radius: 100px 0px 0px 0px;
     width: 100px;
     height: 100px;
     background: #E38F66;
@@ -32,4 +32,5 @@
     position: absolute;
     top: 40px;
     left: 40px;
+  }
 </style>
