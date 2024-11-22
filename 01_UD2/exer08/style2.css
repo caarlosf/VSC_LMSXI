@@ -1,0 +1,69 @@
+/* Asegúrate de que html y body ocupen siempre el 100% del viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* NUEVO: Para apilar header, main y footer */
+}
+
+/* Header ocupa solo el espacio necesario */
+header {
+    width: 100%;
+    height: auto; /* Ajusta automáticamente su altura */
+    margin-bottom: 0;
+}
+
+/* Main ocupa el espacio restante */
+main {
+    flex: 1; /* NUEVO: Permite que este elemento ocupe todo el espacio disponible */
+    display: flex; /* NUEVO: Permite ajustar contenido dentro de main */
+    flex-direction: column; /* NUEVO: Contenido apilado verticalmente */
+    justify-content: center; /* NUEVO: Centra contenido verticalmente */
+    align-items: center; /* NUEVO: Centra contenido horizontalmente */
+    width: 100%;
+    background-color: #f68134;
+    padding: 5%;
+}
+
+/* Article centrado */
+article {
+    background-color: #6AC5E2;
+    color: white;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* Centrar horizontalmente */
+    border-radius: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/* Imagen ajusta proporcionalmente */
+img {
+    max-width: 100%; /* NUEVO: Limita el ancho al 100% del contenedor */
+    max-height: 100%; /* NUEVO: Limita la altura al 100% del contenedor */
+    object-fit: contain; /* NUEVO: Asegura que la imagen no se deforme */
+    display: block; /* Elimina espacio blanco debajo de la imagen */
+}
+
+/* Footer ocupa el mínimo espacio */
+footer {
+    width: 100%;
+    height: auto; /* Ajusta automáticamente su altura */
+    background-color: #6AC5E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Añade algo de espacio interno */
+}
+
+/* Otros estilos */
+p {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
