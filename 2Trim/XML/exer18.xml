@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE computer_shop SYSTEM "exer18.dtd">
+<computer_shop>
+    <products>
+        <product idP="" EAN="">
+            <title></title>
+            <brand></brand>
+            <model></model>
+            <price currency="EUR" discount="0" VAT="general"></price>
+            <stock></stock>
+            <reconditioned />
+        </product>
+    </products>
+    <customers>
+        <customer idC="" date_creation="">
+            <IDcard></IDcard>
+            <first_name></first_name>
+            <surnames></surnames>
+            <telephone_number></telephone_number>
+            <postal_address></postal_address>
+        </customer>
+    </customers>
+    <sales>
+        <sale date_of_sale="" customer="">
+            <list_of_products id="" quantity=""></list_of_products>
+            <total_price></total_price>
+            <currency></currency>
+
+        </sale>
+    </sales>
+
+</computer_shop>

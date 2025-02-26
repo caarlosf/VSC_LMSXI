@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE booklist [
+    <!ELEMENT booklist (book)+>
+    <!ELEMENT book (bookname*,author+,price?,homepage)>
+    <!ELEMENT bookname (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT homepage (#PCDATA)>
+]>
+
+<booklist>
+    <book>
+        <bookname></bookname>
+        <author></author>
+        <price></price>
+        <homepage></homepage>
+    </book>
+    <book>
+        <bookname></bookname>
+        <author></author>
+        <homepage></homepage>
+    </book>
+    <book>
+        <author></author>
+        <homepage></homepage>
+    </book>
+
+</booklist>

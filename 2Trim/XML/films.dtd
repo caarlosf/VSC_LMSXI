@@ -1,0 +1,12 @@
+<!ELEMENT films (film*,filmmaker*,info)>
+<!ELEMENT film (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST film id ID #REQUIRED>
+<!ATTLIST film maker IDREF #IMPLIED>
+<!ELEMENT filmmaker (name)>
+<!ATTLIST filmmaker id ID #REQUIRED>
+<!ELEMENT info (#PCDATA|important)*>
+    <!--sempre que sexa un elemento mixto (<important/>)
+    (só se pecha, non se abre e se pecha) 
+    tense que declarar desta forma, (#PCDATA|important)*-->
+<!ELEMENT important EMPTY>

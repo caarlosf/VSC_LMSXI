@@ -1,0 +1,32 @@
+<!ELEMENT computer_shop (products,customers,sales)>
+<!ELEMENT products (product+)>
+<!ELEMENT product (title,(brand|manufacturer),model,price,stock,reconditioned?)>
+<!ATTLIST product idP CDATA #REQUIRED>
+<!ATTLIST product EAN CDATA #IMPLIED>
+<!ELEMENT title EMPTY>
+<!ELEMENT brand EMPTY>
+<!ELEMENT model EMPTY>
+<!ELEMENT price EMPTY>
+<!ATTLIST price currency (EUR|USD) #REQUIRED>
+<!ATTLIST price discount NMTOKEN "0">
+<!ATTLIST price VAT (general | reduced | super-reduced) #REQUIRED>
+<!ELEMENT stock EMPTY>
+<!ELEMENT reconditioned EMPTY>
+<!ELEMENT customers (customer*)>
+<!ELEMENT customer (IDcard,((first_name,surnames)|complete_name),telephone_number*,postal_address?)>
+<!ATTLIST customer idC CDATA #REQUIRED>
+<!ATTLIST customer date_creation CDATA #REQUIRED>
+<!ELEMENT IDcard EMPTY>
+<!ELEMENT first_name EMPTY>
+<!ELEMENT surnames EMPTY>
+<!ELEMENT telephone_number EMPTY>
+<!ELEMENT postal_address EMPTY>
+<!ELEMENT sales (sale*)>
+<!ELEMENT sale (list_of_products,total_price,currency)>
+<!ATTLIST sale date_of_sale CDATA #REQUIRED>
+<!ATTLIST sale customer CDATA #REQUIRED>
+<!ELEMENT list_of_products EMPTY>
+<!ATTLIST list_of_products id CDATA #REQUIRED>
+<!ATTLIST list_of_products quantity CDATA #IMPLIED>
+<!ELEMENT total_price EMPTY>
+<!ELEMENT currency EMPTY>

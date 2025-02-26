@@ -1,0 +1,7 @@
+<!ELEMENT folks (person*)>
+<!ELEMENT person (name)>
+<!ATTLIST person pin ID #REQUIRED>
+<!ATTLIST person friend IDREF #IMPLIED>
+<!ATTLIST person likes IDREFS #IMPLIED>
+    <!-- se se fai referencia a un, IDREF (friend="p1") se se fan referencia a varios, IDREFS (likes="p2 p1")-->
+<!ELEMENT name (#PCDATA)>

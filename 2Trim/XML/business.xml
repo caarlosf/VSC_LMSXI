@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--prologo, facémolo con "<" e escollemos o segundo XML Declaration with standalone -->
+
+
+
+<!-- "<" insert DOCTIPE with subset (o primeiro)-->
+<!-- "<" insert DTD ELEMENT declaration (debaixo do primeiro elemento as veces que sexa necesario) -->
+
+<!DOCTYPE business [
+    <!ELEMENT business (videogame+)>
+        <!-- "*" de 0 a n, os que sexan. Se emprega pra dicirlle que hay varios, senon mostra erro, subliñando business en vermello-->
+        <!-- "+" outra forma de poñelo, necesitas mínimo un de 1 a x-->
+    <!ELEMENT videogame (title,developer,release_data?)>
+        <!-- ? pode aparecer ou non, se aparece só pode aparecer unha vez, 0 ou 1-->
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT developer (#PCDATA)>
+    <!ELEMENT release_data (#PCDATA)>
+]>
+            <!-- se se engade un tag, como no caso de "release_data" que antes non estaba, hay que metelo en videogame e facer un novo !ELEMENT-->
+
+<business>
+    <videogame>
+        <title>Dragon Quest IX</title>
+        <developer>Level 5</developer>
+        <release_data>2009</release_data>
+    </videogame>
+    <videogame>
+        <title>Fortnite</title>
+        <developer>Epic Games</developer>
+    </videogame>
+</business>

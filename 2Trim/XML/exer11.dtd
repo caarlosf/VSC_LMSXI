@@ -1,0 +1,22 @@
+<!ELEMENT hogwarts (rooms|teachers|courses)*>
+
+<!ELEMENT rooms (room*)>
+<!ELEMENT room (name*)>
+<!ATTLIST room name ID #REQUIRED>
+<!ATTLIST room nrSeats CDATA #IMPLIED>
+
+<!ELEMENT teachers (teacher*)>
+<!ELEMENT teacher (title?)>
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST teacher name ID #REQUIRED>
+<!ATTLIST teacher room IDREF #IMPLIED>
+
+<!ELEMENT courses (course*)>
+<!ELEMENT course (class*)>
+<!ATTLIST course name ID #REQUIRED>
+<!ATTLIST course teacher IDREF #REQUIRED>
+<!ATTLIST course nrStudents NMTOKEN #IMPLIED>
+
+<!ELEMENT class EMPTY>
+<!ATTLIST day CDATA #REQUIRED>
+<!ATTLIST hour CDATA #REQUIRED>

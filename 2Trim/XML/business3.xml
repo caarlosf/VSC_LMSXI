@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- cando non hai DTD, aparecen tres puntiños, damoslle a eles, prememos na bombilla e seleccionamos "Generate ... .dtd with DOCTYPE" -->
+
+<!--prologo, facémolo con "<" e escollemos o segundo XML Declaration with standalone -->
+
+
+
+<!-- "<" insert DOCTIPE with subset (o primeiro)-->
+<!-- "<" insert DTD ELEMENT declaration (debaixo do primeiro elemento as veces que sexa necesario) -->
+
+<!DOCTYPE business [
+    <!ELEMENT business (videogame|toy|game)*>
+        <!-- "*" de 0 a n, os que sexan. Se emprega pra dicirlle que hay varios, senon mostra erro, subliñando business en vermello-->
+        <!-- "+" outra forma de poñelo, necesitas mínimo un de 1 a x-->
+
+        <!-- "|" pode ter unha ou a outra, pode ter videogames, pode ter toys, ou ambas-->
+    <!ELEMENT videogame (title,developer,release_data?)>
+        <!-- ? pode aparecer ou non, se aparece só pode aparecer unha vez, 0 ou 1-->
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT developer (#PCDATA)>
+    <!ELEMENT release_data (#PCDATA)>
+    <!ELEMENT toy (#PCDATA)>
+    <!ATTLIST toy color NMTOKEN #IMPLIED>
+        <!-- NMTOKEN-->
+    <!ELEMENT game EMPTY>
+
+]>
+            <!-- se se engade un tag, como no caso de "release_data" que antes non estaba, hay que metelo en videogame e facer un novo !ELEMENT-->
+            <!-- insert DTD atributes list declaration--> 
+
+<business>
+    <videogame>
+        <title>Dragon Quest IX</title>
+        <developer>Level 5</developer>
+        <release_data>2009</release_data>
+    </videogame>
+    <videogame>
+        <title>Fortnite</title>
+        <developer>Epic Games</developer>
+    </videogame>
+    <toy color="black">Story</toy>
+    <toy>Boy</toy>
+    <game />
+</business>

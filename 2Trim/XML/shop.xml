@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<shop>
+    <sales>
+        <sale id="1">
+            <purcharse_number id="1"></purcharse_number>
+            <date_of_purchase date="9/3/2016"></date_of_purchase>
+            <customer_id id="1"></customer_id>
+            <item_code code="A_1"></item_code>
+        </sale>
+        <sale id="2">
+            <purcharse_number id="2"></purcharse_number>
+            <date_of_purchase date="12/2/2016"></date_of_purchase>
+            <customer_id id="2"></customer_id>
+            <item_code code="C_1"></item_code>
+        </sale>
+        <sale id="3">
+            <purcharse_number id="3"></purcharse_number>
+            <date_of_purchase date="4/15/2017"></date_of_purchase>
+            <customer_id id="3"></customer_id>
+            <item_code code="D_1"></item_code>
+        </sale>
+        <sale id="4">
+            <purcharse_number id="4"></purcharse_number>
+            <date_of_purchase date="5/24/2017"></date_of_purchase>
+            <customer_id id="1"></customer_id>
+            <item_code code="B_2"></item_code>
+        </sale>
+        <sale id="5">
+            <purcharse_number id="5"></purcharse_number>
+            <date_of_purchase date="5/25/2017"></date_of_purchase>
+            <customer_id id="4"></customer_id>
+            <item_code code="B_2"></item_code>
+        </sale>
+        <sale id="6">
+            <purcharse_number id="6"></purcharse_number>
+            <date_of_purchase date="6/6/2017"></date_of_purchase>
+            <customer_id id="2"></customer_id>
+            <item_code code="B_1"></item_code>
+        </sale>
+        <sale id="7">
+            <purcharse_number id="7"></purcharse_number>
+            <date_of_purchase date="6/10/2017"></date_of_purchase>
+            <customer_id id="4"></customer_id>
+            <item_code code="A_2"></item_code>
+        </sale>
+        <sale id="8">
+            <purcharse_number id="8"></purcharse_number>
+            <date_of_purchase date="6/13/2017"></date_of_purchase>
+            <customer_id id="3"></customer_id>
+            <item_code code="C_1"></item_code>
+        </sale>
+        <sale id="9">
+            <purcharse_number id="9"></purcharse_number>
+            <date_of_purchase date="7/20/2017"></date_of_purchase>
+            <customer_id id="1"></customer_id>
+            <item_code code="A_1"></item_code>
+        </sale>
+        <sale id="10">
+            <purcharse_number id="10"></purcharse_number>
+            <date_of_purchase date="8/11/2017"></date_of_purchase>
+            <customer_id id="2"></customer_id>
+            <item_code code="B_1"></item_code>
+        </sale>
+    </sales>
+    <customers>
+        <customer_id id="1"></customer_id>
+        <first_name name="John"></first_name>
+        <last_name name="McKinley"></last_name>
+        <email_addres email="john.mackinley@365careers.com"></email_addres>
+        <number_of_complaints number="0"></number_of_complaints>
+    </customers>
+</shop>
