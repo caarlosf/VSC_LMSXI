@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- <!DOCTYPE juicers SYSTEM "exer24.dtd"> -->
+
+<juicers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="exer24.xsd" >
+    <juicer>
+        <name>Nome</name>
+        <image>1</image>
+        <description>1, 2, 3...</description>
+        <warranty>12</warranty>
+        <weight>20</weight>
+        <cost>10</cost>
+        <retailer>7</retailer>
+    </juicer>
+</juicers>
